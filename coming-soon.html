@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <title>Junction - Charlottesville, VA</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body { margin: 0; text-align: center; background-color: black;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    a { display: inline-block; line-height: 2em; }
+    #logo { width: 95%; margin: 0 auto 1em; }
+    #logo img { width: 100%; max-width: 500px; }
+    #soon { margin-bottom: 10em;
+      font-weight: bold; font-size: 1.5em; letter-spacing: .125em;
+    }
+    #content { padding: 12em 0 .5em; background-color: white; }
+    #content a,
+    #content a:visited,
+    #content a:active { color: black; }
+    @media (max-width: 625px) {
+      #logo { }
+    }
+    #footer { padding: 1em; color: white; }
+    #footer a { color: white; text-decoration: none; }
+    #footer a:visited,
+    #footer a:active { color: white; }
+    #footer span { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <div id="content">
+    <h1 id="logo"><img src="./logo.svg" alt="Junction" /></h1>
+    <p id="soon">Coming Soon</p>
+    <p><a href="https://www.facebook.com/junctionVA/">Like us on facebook for more info</a>
+  </div>
+
+  <div id="footer">
+    <p>421 Monticello Rd, <span>Charlottesville, VA 22902</span>
+    <p><a href="tel:434-984-9749">(434) 984-9749</a></p>
+  </div>
+
+  <script>
+    // fallback for browsers that don't support svg
+    (function (images) {
+      var svgSupported = document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1");
+      if (svgSupported) return;
+
+      var re = /(.*).svg$/
+      var svgFallback = function (image) {
+        var src = image.getAttribute('src');
+        if (!src) return;
+
+        var file = src.match(re)[1] || './logo';
+
+        image.setAttribute('src', file + '.png');
+      };
+      var len = images.length;
+
+      while (len--) {
+        svgFallback(images[len]);
+      }
+
+    })(document.getElementsByTagName('img'));
+  </script>
+</body>
+</html>
