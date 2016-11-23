@@ -128,10 +128,10 @@ Oh and don’t forget those men with big dogs.
 
 Signed by and on behalf of _Ryan Atkinson Dev, LLC_
 ```
-                                                   
+Date:                Signature:                                     
 ```
 Signed by and on behalf of _Hawthorne Hospitality, LLC_
 ```
-                                                   
+Date:                Signature:    
 ```
 Everyone should sign & date above, and keep a copy for their records.
