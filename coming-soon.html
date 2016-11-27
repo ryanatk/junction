@@ -6,24 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-    body { margin: 0; text-align: center; background-color: black;
+    body { margin: 0; text-align: center; background-color: #847d6c;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #4d4b43;
     }
-    a { display: inline-block; line-height: 2em; }
+    a { display: inline-block; line-height: 2em; text-decoration: none; }
+    a:hover { text-decoration: underline; }
     #logo { width: 95%; margin: 0 auto 1em; }
     #logo img { width: 100%; max-width: 500px; }
-    #soon { margin-bottom: 10em;
-      font-weight: bold; font-size: 1.5em; letter-spacing: .125em;
-    }
-    #content { padding: 12em 0 .5em; background-color: white; }
+    #soon { font-weight: bold; font-size: 1.5em; letter-spacing: .125em; }
+    #content { padding: 6em 0 2em; background-color: white; }
     #content a,
     #content a:visited,
-    #content a:active { color: black; }
-    @media (max-width: 625px) {
-      #logo { }
-    }
-    #footer { padding: 1em; color: white; }
-    #footer a { color: white; text-decoration: none; }
+    #content a:active { color: #caab57; }
+    #footer,
+    #images { width: 100%; max-width: 800px; margin: 2em auto; }
+    #images img { display: block; width: 100%; }
+    #footer { color: white; text-align: right; }
+    #footer a,
     #footer a:visited,
     #footer a:active { color: white; }
     #footer span { white-space: nowrap; }
@@ -31,14 +31,26 @@
 </head>
 <body>
   <div id="content">
-    <h1 id="logo"><img src="./logo.svg" alt="Junction" /></h1>
-    <p id="soon">Coming Soon</p>
-    <p><a href="https://www.facebook.com/junctionVA/">Like us on facebook for more info</a>
+    <h1 id="logo"><img src="./junction-red.png" alt="Junction" /></h1>
+    <p id="soon">
+      <a href="https://www.facebook.com/junctionVA/">Opening Soon</a>
+    <p id="images">
+      <img src="./images/hp/0.jpg" />
+      <img data-lazy="./images/hp/1.jpg" />
+      <img data-lazy="./images/hp/2.jpg" />
+      <img data-lazy="./images/hp/3.jpg" />
+      <img data-lazy="./images/hp/4.jpg" />
+      <img data-lazy="./images/hp/5.jpg" />
+      <img data-lazy="./images/hp/6.jpg" />
+      <img data-lazy="./images/hp/7.jpg" />
+      <img data-lazy="./images/hp/8.jpg" />
+      <img data-lazy="./images/hp/9.jpg" />
   </div>
 
   <div id="footer">
+    <p><a href="https://www.facebook.com/junctionVA/">Like us on facebook for more info</a>
     <p>421 Monticello Rd, <span>Charlottesville, VA 22902</span>
-    <p><a href="tel:434-984-9749">(434) 984-9749</a></p>
+    <p><a href="tel:434-984-9749">(434) 984-9749</a>
   </div>
 
   <script>
