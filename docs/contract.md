@@ -13,8 +13,6 @@ You _Hawthorne Hospitality, LLC_, located at _421 Monticello Rd, Charlottesville
 * Design & develop a web site that you can maintain & update going forward
 * For the total price of _$2,000_.
 
-Of course it's a little more complicated, but we'll get to that.
-
 ## What do both parties agree to?
 
 You have the authority to enter into this contract on behalf of yourself, your company or your organization. You'll give us the assets and information we tell you we need to complete the project. You'll do this when we ask and provide it in the formats we ask for. You'll review our work, provide feedback and approval in a timely manner, too. Deadlines work two ways, so you'll also be bound by dates we set together. You also agree to stick to the payment schedule set out at the end of this contract.
@@ -127,10 +125,10 @@ Although the language is simple, the intentions are serious and this contract is
 
 Signed by and on behalf of _Ryan Atkinson Dev, LLC_
 ```
-Date:              Signature:                                   
+Date:                  Signature:                       
 ```
 Signed by and on behalf of _Hawthorne Hospitality, LLC_
 ```
-Date:              Signature:                                   
+Date:                  Signature:                       
 ```
 Everyone should sign & date above, and keep a copy for their records.
