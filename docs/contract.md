@@ -8,9 +8,9 @@ We'll always do our best to fulfill your needs and meet your expectations, but i
 
 ## So in short
 
-You _Hawthorne Hospitality, LLC_, located at customer address ("You") are hiring us _Ryan Atkinson Dev, LLC_ ("We or Us") to:
+You _Hawthorne Hospitality, LLC_, located at _421 Monticello Rd, Charlottesville, VA 22902_ ("You") are hiring us _Ryan Atkinson Dev, LLC_ ("We or Us") to:
 
-* Design and develop a web site
+* Design & develop a web site that you can maintain & update going forward
 * For the total price of _$2,000_.
 
 Of course it's a little more complicated, but we'll get to that.
@@ -80,13 +80,9 @@ Your liability to us will also be limited to the amount of fees payable under th
 
 Finally, if any provision of this contract shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from this contract and shall not affect the validity and enforceability of any remaining provisions.
 
-Phew.
-
 ## Intellectual property rights
 
 Just to be clear, "Intellectual property rights" means all patents, rights to inventions, copyright (including rights in software) and related rights, trademarks, service marks, get up and trade names, internet domain names, rights to goodwill or to sue for passing off, rights in designs, database rights, rights in confidential information (including know-how) and any other intellectual property rights, in each case whether registered or unregistered and including all applications (or rights to apply) for, and renewals or extensions of, such rights and all similar or equivalent rights or forms of protection which subsist or shall subsist now or in the future in any part of the world.
-
-Blimey.
 
 First, you guarantee that all elements of text, images or other artwork you provide are either owned by your good selves, or that you've permission to use them. When you provide text, images or other artwork to us, you agree to protect us from any claim by a third party that we're using their intellectual property.
 
@@ -107,6 +103,7 @@ We love to show off our work, so we reserve the right to display all aspects of 
 We're sure you understand how important it is as a small business that you pay the invoices that we send you promptly. As we're also sure you'll want to stay friends, you agree to stick tight to the following payment schedule.
 
 We issue the following invoices electronically:
+
 1. 50% payment once the contract terms are agreed upon
 2. 50% payment once the contract terms are met
 
@@ -126,16 +123,14 @@ This contract stays in place and need not be renewed. If for some reason one par
 
 Although the language is simple, the intentions are serious and this contract is a legal document under exclusive jurisdiction of local and federal United States courts.
 
-Oh and don't forget those men with big dogs.
-
 # The dotted line
 
 Signed by and on behalf of _Ryan Atkinson Dev, LLC_
-
-Date: `         `  Signature: `                                `
-
+```
+Date:              Signature:                                   
+```
 Signed by and on behalf of _Hawthorne Hospitality, LLC_
-
-Date: `         `  Signature: `                                `
-
+```
+Date:              Signature:                                   
+```
 Everyone should sign & date above, and keep a copy for their records.
