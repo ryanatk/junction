@@ -103,7 +103,7 @@ We're sure you understand how important it is as a small business that you pay t
 We issue the following invoices electronically:
 
 1. 50% payment once the contract terms are agreed upon
-2. 50% payment once the contract terms are met
+2. 50% payment once the contract terms are completed
 
 Our payment terms are _10 days_ from the date of invoice. We reserve the right to charge interest on all overdue debts at the rate of _10%_ per month or part of a month.
 
