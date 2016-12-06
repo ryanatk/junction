@@ -8,10 +8,10 @@ We'll always do our best to fulfill your needs and meet your expectations, but i
 
 ## So in short
 
-You _Hawthorne Hospitality, LLC_, located at _421 Monticello Rd, Charlottesville, VA 22902_ ("You") are hiring us _Ryan Atkinson Dev, LLC_ ("We or Us") to:
+You _Hawthorne Hospitality, LLC_, located at _824 Hinton Ave, Charlottesville, VA 22902_ ("You") are hiring us _Ryan Atkinson Dev, LLC_ ("We or Us") to:
 
-* Design & develop a web site that you can maintain & update going forward
-* For the total price of _$2,000_.
+* Design & develop 2 websites (junctionva.com & thelocal-cville.com) that you can maintain & update going forward
+* For the total price of _$3,000_.
 
 ## What do both parties agree to?
 
@@ -102,8 +102,9 @@ We're sure you understand how important it is as a small business that you pay t
 
 We issue the following invoices electronically:
 
-1. 50% payment once the contract terms are agreed upon
-2. 50% payment once the contract terms are completed
+1. $1,000 payment once the contract terms are agreed upon
+2. $1,000 payment once the Junction website is completed, before starting new work for The Local
+3. $1,000 payment once the contract terms are completed
 
 Our payment terms are _10 days_ from the date of invoice. We reserve the right to charge interest on all overdue debts at the rate of _10%_ per month or part of a month.
 
