@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="colors">
+    </div>
+
+    <script>
+      var fillSection = function (data, callback) {
+        var { id, materials } = data;
+        var section = document.getElementById(id);
+        var content = [];
+        materials.forEach(function ( material ) {
+          content.push(`<h2>${material.title}</h2>`);
+          content.push(callback(material));
+        });
+        section.innerHTML = content.join('');
+      };
+      var colors = {
+        id: 'colors',
+        materials: [{
+          title: "Iron Gate",
+          hex: "#847d6c",
+          description: "First floor stucco, Restrooms"
+        }, {
+          title: "Dragon's Breath",
+          hex: "#4d4b43",
+          description: "First floor wainscot & plaster walls, Restrooms"
+        }, {
+          title: "Sudbury Yellow",
+          hex: "#caab57",
+          description: "North-facing accent wall, Accent wall by bar"
+        }, {
+          title: "Gargoyle",
+          hex: "#746f60",
+          description: "Exterior stucco, Basement stucco, Western & eastern wainscot"
+        }, {
+          title: "Herbal Escape",
+          hex: "#a5a591",
+          description: "Exterior hardiplank, West-facing accent wall, Stairs, Western plaster walls"
+        }, {
+          title: "Hague Blue",
+          hex: "#292f2f",
+          description: "Bar walls"
+        }, {
+          title: "Wrought Iron",
+          hex: "#434443",
+          description: "Metal work"
+        }, {
+          title: "Seashell",
+          hex: "#ebead3",
+          description: "Basement walls"
+        }, {
+          title: "Glacier Lake",
+          hex: "#d1dbd5",
+          description: "Office ceilings, Stairwell ceiling"
+        }, {
+          title: "Simply White",
+          hex: "#faf8ec",
+          description: "Basement ceilings"
+        }],
+      };
+
+      fillSection(colors, function ( data ) {
+        var { hex, description } = data;
+        return `
+          <p style="color:${hex};">${description}</p>
+          <div style="height:150px; width:150px; background-color:${hex}"></div>
+        `;
+      })
+    </script>
+  </body>
+</html>
